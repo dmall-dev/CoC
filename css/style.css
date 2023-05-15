@@ -1,0 +1,103 @@
+* {
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  background: transparent;
+  margin-top: 1rem;
+}
+.header__logo {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: white;
+}
+.header__menu {
+  display: flex;
+}
+.header__link {
+  color: white;
+  margin-left: 3.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+.header a:hover {
+  border-bottom: 2px solid white;
+}
+
+body {
+  background-color: red;
+}
+
+#menu__icon {
+  color: white;
+  font-size: 2rem;
+  z-index: 1001;
+  cursor: pointer;
+  display: none;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+.content h1 {
+  text-transform: uppercase;
+}
+.content__text p {
+  color: white;
+  font-size: 0.938rem;
+  line-height: 1.9;
+  margin-bottom: 2.5rem;
+}
+.content__text h5 {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 2.5rem;
+  margin: 0;
+}
+.content__text h1 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 5.625rem;
+  color: white;
+  margin: 0 0 1rem 0;
+}
+.content__text h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 0.625rem;
+  margin: 0;
+}
+.content__img img {
+  width: 700px;
+  height: auto;
+}
+.content__text {
+  padding: 0 19%;
+}
